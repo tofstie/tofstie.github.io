@@ -6,6 +6,8 @@ collection: portfolio
 
 This project is a collection of Physics-Informed Neural Networks (PINNS) using TensorFlow for multiple different PDEs
 
+[![GitHub](https://img.shields.io/badge/GitHub-Current%20Release-green.svg)](https://github.com/tofstie/PINNS)
+[![Documentation](https://img.shields.io/badge/Documentation-blue.svg)](https://tofstie.github.io/PINNS/)
 ## Current Supported PDEs
 
 Currently, there are multiple linear and non-linear ODEs/PDEs that are supported.

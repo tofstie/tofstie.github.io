@@ -6,7 +6,7 @@ permalink: /talks/2025-SIAM-CSE
 venue: "SIAM Conference on Computational Science and Engineering"
 date: 2025-03-03
 location: "Fort Worth, TX, USA"
-slidesurl: 'http://tofstie.github.io/files/2025-SIAM-CSE.pdf'
+slidesurl: 'http://tofstie.github.io/files/SIAM_CSE-1.pdf'
 ---
 
 In this conference, I presented the entropy stable reduced order model (ESROM) developed for the DG method. I presented results

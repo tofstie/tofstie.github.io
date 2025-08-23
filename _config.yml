@@ -23,9 +23,9 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Tyson Ofstie"
   pronouns         : # example: "she/her"  
-  bio              : "Short b"
+  bio              : "Engineer-in-Training"
   location         : "Montreal"
   employer         : "McGill Univeristy"
   uri              : # URL

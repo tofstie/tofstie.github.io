@@ -2,6 +2,7 @@
 title: "Physics-Informed Neural Networks"
 excerpt: "A non-intrusive surrogate model for modeling PDEs<br/><img src='/images/PINN/pendulum.gif' style='max-width: 100%; height: auto;'>"
 collection: portfolio
+date: 2025-08-23
 ---
 
 This project is a collection of Physics-Informed Neural Networks (PINNS) using TensorFlow for multiple different PDEs

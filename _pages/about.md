@@ -15,17 +15,22 @@ My work combines computational research and real world engineering applications
 - Experience in: C++, Python, MATLAB, VBA
 - Interests: Computational Fluid Dynamics, High-Performance Computing, Software Development
 - Based in Canada
+
 ---
 
 ## Career Highlights
-
+- Simulation Software Development
+  - Designed and optimized high-order CFD solvers using C++, Trilinos, MPI, and model order reduction.  
+- Industry Engineering Roles
+  - Developed models for pipeline integrity and GHG mitigation in the energy sector.
+- Research and Conferences
+  - Presented work on Surrogate models for high order methods at international conferences
+  
 ---
 
-## Projects
-
----
-
-## Skills Snapshots
+## Highlighted Projects
+ - [PHiLiP](/portfolio/philip/)
+ - [PINNs](/portfolio/physics-based-nerual-network/)
 
 ---
 

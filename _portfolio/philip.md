@@ -2,6 +2,7 @@
 title: "PHiLiP"
 excerpt: "A parallel high-order library for PDEs using Discontinuous Galerkin methods<br/><img src='/images/KHI.gif'>"
 collection: portfolio
+date: 2025-08-24
 ---
 
 This is a fork of PHiLiP, a parallel high-order library for PDEs using Discontinuous Galerkin method. In addition to the fork,

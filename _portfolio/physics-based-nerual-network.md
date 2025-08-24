@@ -1,6 +1,6 @@
 ---
 title: "Physics-Informed Neural Networks"
-excerpt: "A non-intrusive surrogate model for modeling PDEs<br/><img src='/images/500x300.png'>"
+excerpt: "A non-intrusive surrogate model for modeling PDEs<br/><img src='/images/PINN/pendulum.gif' style='max-width: 100%; height: auto;'>"
 collection: portfolio
 ---
 
@@ -47,4 +47,39 @@ reflective wall boundaries is shown below.
 
 $$B = u_{NN}(0,t) + u_{NN}(L,t)$$
 
+### Example
+To offer an example, take the 1D damped pendulum equation like the gif shown on the portfolio page.
 
+$$\frac{d^2\theta}{dt^2} + k\frac{d\theta}{dt} + \theta = 0$$
+
+The inputs in this case are $t$ and $k$, with the expected output being $\theta$.
+The discretization has the following parameters:
+- Number of timesteps: 200
+- Final time: 5s
+- Number of damping coefficients: 50 (Randomly distributed between 0.035 and 0.06)
+- Initial Position: $\frac{2\pi}{5}$
+- Initial Rotational Velocity: $0$
+
+The equation is solved for each of the damping coefficients until the final time using
+a two-step explict euler method.
+
+The NN is then made with a dense input layer with 6 hidden layers and one output layer. Each uses the tanh activation function.
+
+For the loss, the residual factor is set to $0.1$ and the initial condition factor is set to $1.0$.
+The model is trained over 2000 iterations with a batch size of 64. $20\%$ of the data is used for testing and
+$5\%$ of the training data is used for validation. All of the inputs are scaled based on the mean and 
+standard deviation of the training data. The training data has the following representation of the input space.
+
+<img src="/images/PINN/Example_Parameter_Space.png"> 
+
+The inital learning rate is $1E-3$ with a exponential decay with a rate of $0.98$ over $400$ steps.
+After running the training, the loss levels out after 125 iterations.
+
+<img src="/images/PINN/Example_Iterations.png">
+
+To test the accuracy of the model, a damping value of $0.05$ is chosen and the value of the model over the time range is compared
+against the discretized solution. The result of the model can be seen below.
+
+<img src="/images/PINN/Example_Output.png">
+
+<img src="/images/PINN/pendulum.gif">

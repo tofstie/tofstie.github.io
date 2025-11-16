@@ -11,10 +11,10 @@ redirect_from:
 
 Education
 ======
-* M.Sc. in Mechanical Engineering (Thesis), McGill University, October 2025 (expected)
+* M.Sc. in Mechanical Engineering (Thesis), McGill University, October 2025
   * Supervisor: Prof. Siva Nadarajah
   * GPA 4.0/4.0
-* B.Sc. in Mechanical Engineering Cooperative Program, University of Alberta, 2012
+* B.Sc. in Mechanical Engineering Cooperative Program, University of Alberta, 2022
   * GPA: 3.87/4.0
 
 Research experience
@@ -87,6 +87,7 @@ Skills
   <td> C++ <ul>
     <li> Epetra </li>
     <li> deal.II </li>
+    <li> CUDA </li>
   </ul></td>
   <td> Git </td>
   <td> Microsoft Office </td>

@@ -56,6 +56,12 @@ This branch implements the hyperreduction techniques using the quadrature POD ba
 - As I wrap up my thesis, a few additional things need to be merged into the main branch of dougshidong/PHiLiP. 
 Not all of my work will be merged in as there are large scale consequences of the work I have done on others in the group.
 
+### PERK Schemes
+- Recent advancements in [PERK schemes](https://doi.org/10.1016/j.jcp.2023.112159) have led to a potential increase in
+the CFL number when there are large differences in cell sizes. Other students in the group have incorporated these methods
+, however they are not completely finished. My job is to make sure the code is "production" ready. I am currently waiting
+on other PRs before testing can begin.
+
 ### Hyperreduction and FR
 - I want to implement hyperreduction and FR to allow for more dissipation in the flow. There are a few things that need to
 be solved first mathematically before this can be implemented.
